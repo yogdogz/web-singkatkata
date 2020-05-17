@@ -24,7 +24,7 @@ layout: default
   </header>
 
   <div class="container">
-    <div class="row">
+    <div class="row" id="home-padding">
       <div class="col-lg-8 col-md-10 mx-auto">
 
         {{ content }}
@@ -48,7 +48,7 @@ layout: default
             {{ site.author }}
             {% endif %}
             on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
+            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
           </p>
         </article>
 
@@ -58,7 +58,7 @@ layout: default
 
         <!-- Pager -->
         <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">Lihat Semua Tulisan &rarr;</a>
         </div>
 
       </div>

@@ -64,5 +64,8 @@
   font-family: 'Lora', 'Times New Roman', serif;
 }
 @mixin sans-serif-font() {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+@mixin serif-font() {
+  font-family: 'Hind', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
