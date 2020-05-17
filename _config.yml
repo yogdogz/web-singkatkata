@@ -1,0 +1,23 @@
+title:              Singkatkata
+email:              halo@singkatkata.com
+description:        Big Ideas and Life Advice
+author:             Ketut Yudistira
+baseurl:            "/web-singkatkata"
+url:                "yogdogz.github.io"
+logo:               'img/singkatkata-logo.png'
+
+# Social Profiles
+twitter_username:   singkatkatacom
+facebook_username:  singkatkata
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
