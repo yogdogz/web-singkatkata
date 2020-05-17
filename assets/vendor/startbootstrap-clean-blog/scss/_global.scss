@@ -68,6 +68,7 @@ blockquote {
   text-shadow: none;
 }
 
+
 img::selection {
   color: $white;
   background: transparent;
@@ -77,6 +78,8 @@ img::-moz-selection {
   color: $white;
   background: transparent;
 }
+
+//CUSTOM CSS
 
 #post-padding {
   padding-right: 20px;
@@ -96,4 +99,19 @@ img::-moz-selection {
 #page-padding {
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.btn-primary {
+  border-radius: 8px !important;
+}
+
+.btn-success {
+  background-color: $gray-800;
+  border-color: $gray-800;
+  width: 100%;
+  border-radius: 8px !important;
+}
+
+.img-fluid {
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.3);
 }
