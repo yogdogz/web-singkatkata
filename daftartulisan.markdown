@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Langganan
-description: Pengen tau kapan next postnya? Langganan!
+title: Daftar Tulisan
+description: Kamu bisa cari semua tulisan di sini!
 background: '/img/bg-contact.jpg'
 form: true
 ---
