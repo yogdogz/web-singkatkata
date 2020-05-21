@@ -10,7 +10,7 @@ twitter_username:   singkatkatacom
 facebook_username:  singkatkata
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:   UA-21373638-2 # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
