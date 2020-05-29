@@ -106,12 +106,62 @@ img::-moz-selection {
 }
 
 .btn-success {
-  background-color: $gray-800;
-  border-color: $gray-800;
+  background-color: #212121;
+  border-color: #212121;
   width: 100%;
   border-radius: 8px !important;
 }
 
 .img-fluid {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+//For Solid Background page layout
+
+#thankyoubg {
+  background: url(/img/bg-about.jpg);
+  filter: brightness(30%);
+
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  #thankyoubg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+.solidbg-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 60%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+
+}
+
+#solidbg-text {
+    position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: $white;
+
 }
