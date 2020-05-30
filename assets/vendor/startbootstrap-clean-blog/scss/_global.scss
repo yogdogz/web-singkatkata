@@ -120,8 +120,8 @@ img::-moz-selection {
 //For Solid Background page layout
 
 #thankyoubg {
-  background: url(/img/bg-about.jpg);
-  filter: brightness(30%);
+  background: url(/img/bg-index.jpg);
+  filter: brightness(50%);
 
   /* Set rules to fill background */
   min-height: 100%;
@@ -153,7 +153,6 @@ img::-moz-selection {
     height: 60%;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
 
 }
